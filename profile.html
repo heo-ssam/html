@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>나의 소개</title>
+    <style>
+        /* CSS 코드 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .intro img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .intro p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .resume {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+ 
+
+        .resume ul {
+            list-style-type: none;
+        }
+
+        .resume li {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+     
+
+        .contact button {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 20px;
+            font-size: 20px;
+            color: white;
+            background-color: darkblue;
+            border: none;
+            border-radius: 10px;
+        }
+
+
+        .contact-info p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .darkblue{color: darkblue;}
+        footer p{text-align: center;padding: 1rem;}
+        .contact-info a{text-decoration: none;padding: .5rem;}
+        .contact-info a:hover{background: darkblue;color:#fff;}
+
+    </style>
+</head>
+<body>
+    <h1 class="darkblue">나의 웹사이트</h1>
+    <div class="container">
+        <div class="intro">
+            <img src="./img/images.jpg" alt="나의 사진">  
+            <p>안녕하세요,저는 아름답고 기능적인 웹사이트를 만드는 데 열정적인 <b class="darkblue">웹 개발자 제니</b>입니다.</p>
+        </div>
+        <div class="resume">
+            <h2 class="darkblue">서비스</h2>
+            <ul>
+                <li><b>웹디자인</b>: 저는 고객의 요구에 맞춘 시각적으로 매력적이고 사용자 친화적인 웹 사이트 디자인을 전문으로 제작합니다.</li>
+                <li><b>프론트앤드 개발</b>: 저는 인터랙티브하고 반응이 빠른 기능으로 웹사이트에 생동감을 불어넣을수 있는 HTML,CSS,JAVASCRIOT에 대한 전문 지식을 갖추고 있습니다.</li>
+                <li><b>웹 사이트 유지관리</b>:웹사이트를 최신 상태로 유지할수 있도록 지속정인 지원및 유지보수 서비스를 제공합니다.</li>
+               
+            </ul>
+        </div>
+        <div class="contact">
+            <h2 class="darkblue">연락처</h2>
+            <button  class="darkblue">연락처 보기/숨기기</button>
+            <div class="contact-info" id="contact-info">
+                <p><b>이메일</b>: heopoint@gmail.com</p>
+                <p><b>전화번호</b>: 010-1234-5678</p>
+                <p><b>소셜미디어</b>: <a href="https://www.facebook.com/honggildong">Facebook</a>, <a href="https://www.twitter.com/honggildong">Twitter</a>, <a href="https://www.instagram.com/honggildong">Instagram</a></p>
+            
+            </div>
+        </div>
+        <footer>
+          <p>&copy; 2023 My Website. All rights reserved.</p>
+        </footer>
+    </div>
+  
+</body>
+</html>
