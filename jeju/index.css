@@ -1,0 +1,27 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 480px;
+  margin: 82px auto;
+}
+ul{padding: 0;}
+li{list-style: none;margin: 5px;}
+a{text-decoration: none;font-size: 20px;
+color: inherit;
+}
+
+.on {
+  color: #f56513;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  background-color: #f2f1f1;
+  padding: 16px 24px;
+  color: #555555;
+ 
+}
+
+#map {
+  width: 100%;
+}
